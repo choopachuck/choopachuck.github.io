@@ -866,6 +866,8 @@ input:hover+.dot-info span {
     }
     .section_header_wrapper {
         flex-direction: column;
+        height: auto;
+        display: block;
     }
     .section_header_title-text-outer {
         display: none;
@@ -873,9 +875,8 @@ input:hover+.dot-info span {
     .section_header_title-bold {
         width: 400px;
     }
-    .section_header_wrapper {
-        height: auto;
-        display: block;
+    .section_header_content-text {
+        backdrop-filter: blur(2px);
     }
     .section_header_content {
         z-index: 2;
@@ -883,7 +884,7 @@ input:hover+.dot-info span {
         padding-bottom: 20px;
     }
     .section_header-banner {
-        opacity: 0.85;
+        opacity: 0.95;
         z-index: 1;
         top: -16%;
         margin-right: 0px;
