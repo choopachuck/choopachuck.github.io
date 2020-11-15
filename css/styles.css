@@ -834,7 +834,7 @@ input:hover+.dot-info span {
     text-decoration-skip-ink: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     body {
         max-width: 550px;
         margin: auto;
