@@ -105,34 +105,18 @@ body {
 
 .img_banner {
     width: auto;
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
-    right: 0;
+    right: 0; */
 }
 
 .section_header-banner {
     max-width: 40%;
     max-height: auto;
-    position: relative;
+    position: absolute;
+    bottom:0;
+    right: 0;
     margin-right: 0px;
-}
-
-.section_header_content-button {
-    width: 260;
-    height: 60;
-    text-align: center;
-    padding: 0.5em;
-    font-weight: 400;
-    margin-top: 10%;
-    color: #0ea4e2;
-    background-color: white;
-    transition: ease-in-out 0.3s;
-}
-
-.section_header_content-button:hover {
-    color: white;
-    background-color: #3f3f3f;
-    cursor: pointer;
 }
 
 .section_header_content {
@@ -998,7 +982,8 @@ input:hover+.dot-info span {
         max-width: 100%;
         z-index: 1;
         float: bottom right;
-        margin-right: 0px;        
+        margin-right: 0px;    
+        border: green 1px solid;    
     }
     .img_banner {
     }
