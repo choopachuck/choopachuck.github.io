@@ -6,7 +6,6 @@
 }
 
 body {
-    border: springgreen 1px solid;
     max-width: 1160px;
     width: 100%;
     background-color: #ffffff;
@@ -455,8 +454,6 @@ body {
     padding-left: 0;
 }
 
-.demand-content-list {}
-
 .demands-content-list-element {
     color: #3f3f3f;
     font-size: 16;
@@ -705,24 +702,30 @@ input:hover+.dot-info span {
 
 .section_work-content {
     margin-top: 10%;
-    height: 700px;
+    height: auto;
+    min-height: 700px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     position: relative;
 }
 
-.section_work-header {
-    margin-right: 100px;
+.section_work {
+    width: 100%;
 }
 
 .section_work-image {
-    margin-left: 50;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .section-work-content-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    position: relative;
 }
 
 .section_work-cities {
@@ -958,9 +961,6 @@ input:hover+.dot-info span {
         background: #0ea4e2;
     }
     /*SLIDER END*/
-    .section_header_title_wrapper {
-        border: red 1px solid;
-    }
     .section_header_wrapper {
         flex-direction: column;
         height: auto;
@@ -988,11 +988,6 @@ input:hover+.dot-info span {
         float: bottom;
         margin-right: 0px;
     }
-    .demands-content {
-        width: 100%;
-        margin: 0;
-        margin-top: 30px;
-    }
     .content-section {
         width: 100%;
         margin-top: 50px;
@@ -1016,6 +1011,14 @@ input:hover+.dot-info span {
     .content-section2-text {
         margin: 0;
     }
+    .section_demands {
+        width: 100%;
+    }
+    .demands-content {
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+    }
     .demands-content-title {
         margin-top: 0;
     }
@@ -1024,6 +1027,13 @@ input:hover+.dot-info span {
         justify-content: space-around;
         flex-direction: column;
     }
+    .section-program-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .section-program-hour-info {
+        margin-top: 1em;
+    }
     .section-program-content {
         margin-top: 30;
         margin-left: 3%;
@@ -1031,6 +1041,16 @@ input:hover+.dot-info span {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+    }
+    .section_program {
+        max-height: 850px;
+    }
+    .section-program-box {
+        width: 48%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
     }
     .section_cities-header {
         margin-left: 5%;
@@ -1059,50 +1079,56 @@ input:hover+.dot-info span {
     .section_cities-box-inner-text {
         padding: 10px;
     }
-    .section_work-image {
-        display: none;
-    }
     .section_work-cities {
         margin-top: 30px;
         position: relative;
         align-items: flex-start;
+        flex-wrap: wrap;
         top: 0;
+        padding-left: 1em;
+    }
+    .section_work-image {
+        opacity: 0.3;
     }
     .section_work-cites-container {
-        padding-right: 20;
+        padding-right: 1em;
     }
     .section_need-wrapper {
-        margin-top: 50px;
+        margin-top: 30px;
         width: 100%;
         background-color: #48A3DD;
-        background-image: url("/Vector.svg");
-        background-repeat: no-repeat;
-        background-position: 55% 80%;
+        background-image: none;
         display: flex;
+        position: relative;
         justify-content: flex-start;
     }
-    .big {
-        display: none;
-    }
-    .small {
-        display: inline;
-    }
     .section_need-content {
-        width: 100%;
-        margin-top: 5%;
-        margin-left: 10%;
+        max-width: 60%;
+        margin-left: 1em;
         display: flex;
         flex-direction: column;
+        z-index: 2;
+    }
+    .section_need {
+        width: 100%;
     }
     .section_need-header {
         font-size: 24px;
     }
     .section_need-li {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.2;
         font-weight: 400;
         color: white;
-        margin-bottom: 20px;
+        margin-bottom: 1em;
+    }
+    .section_needs-image-wrapper {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: 0.3;
+        z-index: 1;
     }
     .qr-container {
         display: none;
@@ -1117,5 +1143,11 @@ input:hover+.dot-info span {
     .questions-text-header {
         text-align: center;
         width: 100%;
+    }
+    .big {
+        display: none;
+    }
+    .small {
+        display: inline;
     }
 }
