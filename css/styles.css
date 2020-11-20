@@ -947,7 +947,7 @@ input:hover+.dot-info span {
     /*SLIDER END*/
     .section_header_wrapper {
         display: flex;
-        height: auto;
+        height: 455px;
     }
     .section_header_title-text-outer {
         display: none;
