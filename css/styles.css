@@ -972,15 +972,14 @@ input:hover+.dot-info span {
     }
     .section_header_content {
         z-index: 2;
-        max-width: 48%;
-        display: flex;
-        height: auto;
-        flex-direction: column;
         justify-content: space-between;
+        max-width: 50%;
+        margin-left: 5%;
+        line-height: 1.5;
     }
     .section_header-banner {
         max-height: 367px;
-        max-width: 100%;
+        max-width: 60%;
         z-index: 1;
         margin-right: 0px;    
         border: red 1px solid;    
