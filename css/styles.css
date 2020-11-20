@@ -982,9 +982,8 @@ input:hover+.dot-info span {
         max-height: 367px;
         max-width: 100%;
         z-index: 1;
-        float: bottom right;
         margin-right: 0px;    
-        border: green 1px solid;    
+        border: red 1px solid;    
     }
     .img_banner {
         max-height: 367px;
