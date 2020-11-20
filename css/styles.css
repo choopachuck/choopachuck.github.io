@@ -979,6 +979,7 @@ input:hover+.dot-info span {
         justify-content: space-between;
     }
     .section_header-banner {
+        max-height: 367px;
         max-width: 100%;
         z-index: 1;
         float: bottom right;
@@ -986,6 +987,7 @@ input:hover+.dot-info span {
         border: green 1px solid;    
     }
     .img_banner {
+        max-height: 367px;
     }
     .content-section {
         width: 100%;
