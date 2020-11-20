@@ -946,7 +946,7 @@ input:hover+.dot-info span {
     }
     /*SLIDER END*/
     .section_header_wrapper {
-        display: block;
+        display: flex;
         height: auto;
     }
     .section_header_title-text-outer {
@@ -982,7 +982,7 @@ input:hover+.dot-info span {
         max-width: 60%;
         z-index: 1;
         margin-right: 0px;    
-        border: red 1px solid;    
+        /* border: red 1px solid;     */
     }
     .img_banner {
         max-height: 367px;
