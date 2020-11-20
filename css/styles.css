@@ -997,9 +997,11 @@ input:hover+.dot-info span {
     .section_header-banner {
         max-width: 100%;
         z-index: 1;
-        float: bottom;
+        float: bottom right;
         margin-right: 0px;
-        border: 1px solid red;
+        border: 1px solid black;
+
+        
     }
     .img_banner {
     }
