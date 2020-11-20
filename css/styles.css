@@ -998,10 +998,7 @@ input:hover+.dot-info span {
         max-width: 100%;
         z-index: 1;
         float: bottom right;
-        margin-right: 0px;
-        border: 1px solid black;
-
-        
+        margin-right: 0px;        
     }
     .img_banner {
     }
