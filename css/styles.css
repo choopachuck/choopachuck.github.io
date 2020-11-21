@@ -1046,7 +1046,7 @@ input:hover+.dot-info span {
         max-height: 850px;
     }
     .section-program-box {
-        width: 48%;
+        width: 46%;
         height: 200px;
         display: flex;
         flex-direction: column;
