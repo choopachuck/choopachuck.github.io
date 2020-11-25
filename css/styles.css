@@ -192,7 +192,6 @@ body {
     width: 530px;
     height: 320px;
     overflow: hidden;
-    position: relative;
 }
 
 .slides {
