@@ -169,6 +169,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5em;
+    max-height: 730px;
     /* background-image: url("/Vector.svg");
     background-repeat: no-repeat;
     background-position: bottom right; */
