@@ -170,9 +170,9 @@ body {
     justify-content: space-between;
     margin-bottom: 5em;
     max-height: 750px;
-    /* background-image: url("/Vector.svg");
+    background-image: url("/Vector.svg");
     background-repeat: no-repeat;
-    background-position: bottom right; */
+    background-position: bottom right;
 }
 
 .group_content {
