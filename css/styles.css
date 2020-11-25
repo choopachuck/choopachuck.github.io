@@ -1103,6 +1103,10 @@ input:hover+.dot-info span {
         height: 100px;
         width: 100px;
     }
+    .sities-box-inner-image {
+        height: 100px;
+        width: 100px;
+    }
     .section_cities-box-city {
         color: #0ea4e2;
         line-height: 1.25;
