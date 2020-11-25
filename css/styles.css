@@ -1099,6 +1099,10 @@ input:hover+.dot-info span {
         width: 48%;
         padding-right: 2em;
     }
+    .section_sities-box-inner-image {
+        height: 100px;
+        width: 100px;
+    }
     .section_cities-box-city {
         color: #0ea4e2;
         line-height: 1.25;
