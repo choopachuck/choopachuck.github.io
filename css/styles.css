@@ -168,9 +168,9 @@ body {
     margin-top: 15%;
     display: flex;
     justify-content: space-between;
-    background-image: url("/Vector.svg");
+    /* background-image: url("/Vector.svg");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right; */
 }
 
 .group_content {
