@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=PT+Sans&display=swap');
+
+.recomendation-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+#dataclass {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#dataclass > * {
+  flex: 1 1 45%;
+}
+
+.rec-url {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-decoration: none;
+  width: 60%;
+  background-color: transparent;
+}
+
+.rec-wrapper {
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.rec-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rec-imagebox {
+  min-height: 90px;
+  max-height: 150px;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  border: 1px solid #e4e6e8;
+  border-radius: 2px;
+
+}
+
+.rec-percent {
+  text-align: center;
+}
+
+.infobar {
+  display: flex;
+  width: 39%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #000000;
+  justify-content: flex-end;
+  gap: 1em;
+  align-items: flex-end;
+}
+
+.consult-wrapper {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+}
+.consult-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  background-color: #f6f6f6;
+}
+
+.consult-title {
+  text-align: center;
+  line-height: 90px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: #666666;
+}
+.consult-button {
+  display: block;
+  height: 38px;
+  width: 200px;
+  background-color: #53b293;
+  text-decoration: none;
+  border-radius: 2px;
+  align-self: center;
+  text-align: center;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 38px;
+  align-items: center;
+  color: #ffffff;
+}
+.consult-image {
+  height: 62px;
+  width: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 62px;
+  background-color: #7b577a;
+  border-radius: 50%;
+  margin-top: 14px;
+}
+
+.consult-text {
+  margin-top: 15px;
+  width: 60%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #666666;
+}
+
+.gradient-bar {
+  width: 100%;
+  height: 4px;
+  margin-top: 6px;
+  background: linear-gradient(to left, #53b293, #e3823b);
+}
+
+@media screen and (max-width: 768px) {
+  .consult-text {
+    width: 100%;
+  }
+
+  .consult-title {
+    text-align: center;
+    line-height: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #666666;
+  }
+  .consult-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-bottom: 1em;
+    align-items: center;
+  }
+}
